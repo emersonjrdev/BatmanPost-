@@ -1,0 +1,136 @@
+ /* font imported from Google Fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,400;1,600&display=swap'); 
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Jost', sans-serif;
+}
+body{
+     background-image: url(https://images5.alphacoders.com/131/1311166.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+nav{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+}
+#logo{
+ font-size: 30px;
+ padding: 20px;
+ border-bottom: 0px solid black;
+ box-shadow: 2px 2px 12px 2px  rgba(210, 210, 210, 0.384);
+ color: rgb(255, 251, 251);
+ background-color: black;
+}
+#logo h1{
+ cursor: pointer;
+}
+
+#menu{
+    background-color: black;
+}
+
+#menu ul{
+ display: flex;
+ border-bottom: 1px solid rgb(247, 247, 247);
+ gap: 50px;
+ list-style: none;
+ justify-content: center;
+ padding: 10px;
+ font-size: 21px;
+ color: red;
+}
+#menu li{
+ transition:all 0.3s ease-in-out;
+}
+#menu li:hover{
+ color: rgb(228, 219, 219);
+ cursor: pointer;
+}
+.left{
+    margin-right: 1300px;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: red;
+}
+
+.imagens{
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 26%;
+    
+}
+img{
+    border-radius: 12px;
+}
+
+footer {
+    text-align: center;
+    background-color:rgba(0, 0, 0, 0.582);
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: red ;
+}
+
+.imagens2{
+    margin: auto;
+    margin-top: 60px;
+    margin-left: 26%;
+    margin-bottom: 70px;
+}
+
+.foto{
+    margin-right: 1200px;
+    display: block;
+}
+
+.button {
+position: relative;
+    overflow: hidden;
+    height: 2rem;
+    width: 120px;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      rgb(248, 53, 18) 10.8%,
+      rgb(224, 83, 18) 94.3%
+    );
+    transition: all 0.475s;
+  }
+  
+  
