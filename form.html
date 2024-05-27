@@ -4,12 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="form.css">
-    <title>Form</title>
+    <title>Post - Finder</title>
 </head>
 <body>
-    <header>
-        <a href="header.html"><button class="voltar">Voltar</button></a>
-      </header>
+  <nav>
+    <!-- logo section exists for the logo in your website (for example here 'razr.') -->
+      <section id="logo">
+        <a href="header.html"><h1><span class="pequeno">FEED</span>FINDER.</h1></a>
+        </section>
+        <!-- this menu section holds all the links in your navigation bar -->
+        <section id="menu">
+          <ul>
+            <a href="header.html"><li class="left">Voltar</li></a>
+          </ul>
+        </section>
+  </nav>
+  
       <div class="login-box">
         <form action="" id="form">
           <h1 class="login">Post</h1>
@@ -26,10 +36,14 @@
             <label for="imageInput">Imagem</label>
           </div>
           <center>
-            <button id="submit" type="submit">Enviar</button>
+            <button class="button" id="submit" type="submit">Enviar</button>
           </center>
         </form>
       </div>
+      <footer>
+        <footer><p>
+          © 2024 Finder. Todos os direitos reservados.<br> site e seu conteúdo, incluindo, mas não se limitando a, texto, gráficos, logotipos, ícones, imagens, clipes de áudio, downloads digitais, compilações de dados e software, são propriedade da Finder ou de seus fornecedores de conteúdo e estão protegidos pelas leis de direitos autorais internacionais. A compilação de todo o conteúdo deste site é de exclusiva propriedade da Finder e está protegida pelas leis de direitos autorais internacionais.</p></footer>
+      </footer>
 </body>
-<script src="header.js"></script>
+<script src="post.js"></script>
 </html>
